@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <section className="bg-[#070B38]  flex flex-col justify-center items-center">
-      <div className="flex pt-16 justify-start w-[85%]">
-        <h1 className="text-5xl text-white font-mono font-bold text-center md:text-left lg:text-start w-[85%]">
-          Conatct Us
+      <div className="flex pt-16 justify-center md:justify-start lg:justify-start w-[85%]">
+        <h1 className="text-5xl text-white font-mono font-bold text-center md:text-start lg:text-start w-[85%]">
+          Contact Us
         </h1>
       </div>
       <div className="flex w-[80%] justify-center pt-10">
-        <form className="w-[50%]">
+        <form className="w-full md:w-[80%] lg:w-[50%]">
           <div className=" flex flex-col py-4">
             <label className="text-white text-lg pb-2">E-Mail</label>
             <input

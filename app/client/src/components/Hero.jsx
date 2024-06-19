@@ -3,13 +3,13 @@ import HeroImage from "../assets/hero_image.png";
 
 const Hero = () => {
   return (
-    <section className="bg-[#FFFF]">
-      <div className="flex flex-col md:flex-row lg:flex-row pt-16 pl-12 lg:pl-20 pr-10 pb-12 items-center justify-between ">
+    <section className="bg-[#fcf7f0]">
+      <div className="flex flex-col md:flex-row lg:flex-row pt-16 pl-12 lg:pl-28 pr-10 pb-12 items-center justify-between ">
         <div>
           <h1 className="text-6xl font-Montserrat text-center md:text-left lg:text-left">
             RUH-EIEE
           </h1>
-          <h1 className="text-7xl  font-Montserrat font-extrabold  text-center md:text-left lg:text-left">
+          <h1 className="text-7xl  font-Montserrat font-bold  text-center md:text-left lg:text-left">
             CAREER FAIR
           </h1>
           <h1 className="text-5xl drop-shadow-xl font-Montserrat text-[#FF9503] text-center md:text-left lg:text-left">
@@ -21,7 +21,7 @@ const Hero = () => {
             applications from start to finish
           </p>
           <div className="flex pb-5 justify-center  md:justify-start lg:justify-start">
-            <button className="bg-black text-white text-lg font-Montserrat h-10 w-36 rounded-xl">
+            <button className="bg-black text-white text-lg font-Montserrat h-10 w-36 rounded-lg">
               Find Your Job
             </button>
           </div>
